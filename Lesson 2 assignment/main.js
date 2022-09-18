@@ -28,6 +28,8 @@ if(frectx === 600){
     firectx++;
     sirectx++;
 }
+
+// Draw the road 
 ctx.fillStyle = "#000000";
 ctx.lineWidth = 2.5;
 ctx.moveTo(0, 300);
@@ -51,6 +53,7 @@ ctx.fillRect(sirectx, 295, 10, 5);
 ctx.stroke();
 requestAnimationFrame(animation);
 }
+
 animation()
 
 // Restore the canvas
