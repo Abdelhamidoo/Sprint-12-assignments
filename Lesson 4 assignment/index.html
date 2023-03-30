@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="x-shader/x-vertex" id="vertexShader">
+        attribute vec3 a_position;
+        void main(void){
+            gl_Position = vec4(a_position, 1.0);
+        }
+    </script>
+    <script type="x-shader/x-fragment" id="fragmentShader">
+        void main(void){
+            gl_fragColor = vec4(0.33725490196078434, 0.38823529411764707, 0.9686274509803922, 1.0);
+        }
+    </script>
+</head>
+<body>
+    <canvas width="600" height="600" id="canvas"></canvas>
+</body>
+</html>
