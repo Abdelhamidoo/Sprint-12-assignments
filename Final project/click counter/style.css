@@ -1,0 +1,24 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    background: #ee8700;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}  
+#clickBtn, #resetBtn {
+    padding: 20px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 5px solid rgb(42, 42, 42);
+    border-radius: 50px;
+    color: rgb(42, 42, 42);
+}
